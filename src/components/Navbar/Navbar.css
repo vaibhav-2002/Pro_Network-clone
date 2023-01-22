@@ -1,0 +1,56 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  color: #0047ab;
+  padding: 0 7%;
+}
+.Nabar_left {
+  display: flex;
+  /* margin-left: 10%; */
+  align-items: center;
+  /* flex: 0.4; */
+}
+.Nabar_left img {
+  width: 60px;
+  height: 45px;
+  border-radius: 5px;
+}
+.Nabar_left input {
+  width: 300px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 2px white;
+  padding: 0px 5px;
+}
+.navbar_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10%;
+  /* flex: 0.5; */
+}
+.navbar_right > p {
+  /* font-size: 25px; */
+  font-weight: 600;
+  margin-left: 50px;
+  text-transform: capitalize;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.navbar_right button {
+  background-color: #0047ab;
+  border-radius: 5px;
+  color: white;
+  width: 100px;
+  height: 40px;
+  margin-top: 8px;
+  margin-left: 20px;
+  margin-bottom: 8px;
+  border: 2px #0047ab;
+}
+.nabar_line {
+  border: 0.5px solid lightgrey;
+}
